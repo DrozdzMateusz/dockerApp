@@ -1,0 +1,12 @@
+Zbudowannie projektu na podstawie Dockerfile  i podanie jego nazwy:wersji
+>>docker build -f DockerFile_TEST -t stream_test:v1 .
+
+uruchomienie/zatrzymanie obrazu dockera podanie portu z DockerFile:port z aplikacji podanie image id(wystarczą 3 pierwsze)
+docker run -p 8000:8080 abb
+docker stop c5e
+
+pokazanie wszystkich obrazów
+docker images
+
+pokazanie odpalonych obrazów
+docker ps
