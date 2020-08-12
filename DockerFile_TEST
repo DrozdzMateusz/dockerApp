@@ -1,0 +1,4 @@
+FROM openjdk:8u191-jdk-alpine3.9
+ADD target/dockerApp-0.0.1-SNAPSHOT.jar .
+EXPOSE 7000
+CMD java -jar dockerApp-0.0.1-SNAPSHOT.jar --envName=TEST
